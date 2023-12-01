@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+.spa_wellness{
+    display: flex;
+    background-color: #243443;
+    margin-bottom: 2rem;
+    padding: 4rem 6rem;
+    gap: 16rem;
+}
+@media (max-width: 1000px){
+    .spa_wellness{
+        gap: 2rem;
+    }
+}
+@media (max-width: 765px) {
+    .spa_wellness{
+        flex-wrap: wrap;
+    }
+}
+.spa_wellness h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    color: #fff;
+}
+@media (max-width: 1000px) {
+    .spa_wellness h2{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 585px) {
+    .spa_wellness h2{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 485px) {
+    .spa_wellness h2{
+        font-size: 2.5rem;
+    }
+}
+.spa_wellness p{
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 40%;
+}
+@media (max-width: 1000px) {
+    .spa_wellness p{
+        width: 70%;
+    }
+}
+@media (max-width: 835px) {
+    .spa_wellness p{
+        width: 90%;
+    }
+}
+@media (max-width: 700px){
+    .spa_wellness p{
+        width: 100%;
+    }
+}
+@media (max-width: 485px){
+    .spa_wellness p{
+        font-size: 1.2rem;
+    }
+}
+
+.spa_wellness_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 7rem;
+    padding-bottom: 7rem;
+}
+@media (max-width: 1000px) {
+    .spa_wellness_2{
+        flex-wrap: wrap;
+    }
+}
+.inside_wellness{
+    display: flex;
+    flex-direction: column;
+}
+.spa_wellness_2 h5{
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: justify;
+    color: #243443;
+}
+.spa_wellness_2 h2{
+    color: #243443;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    margin: 1rem 0;
+}
+@media (max-width: 1210px) {
+    .spa_wellness_2 h2{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 670px){
+    .spa_wellness_2 h2{
+        font-size: 3rem;
+    }
+}
+.spa_wellness_2 p{
+    color: #243443;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .spa_wellness_2 p{
+        width: 100%;
+    }
+}
+.spa_img img{
+    width: 100%;
+}
+@media (max-width: 1000px) {
+    .spa_img img{
+        margin-top: 2rem;
+    }
+}
+
+
+.box_our_service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+}
+.box_our_service h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #243443;
+}
+.box_our_service p{
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-top: .5rem;
+    color: #243443;
+}
+.box_qna{
+    border: 0.01rem solid #243443;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+.qna{
+    display: flex;
+    justify-content: space-between;
+}
+.qna .plus{
+    font-size: 2rem;
+}
+.hide_para1{
+    display: none;
+    animation: para 1s;
+}
+.show_para1{
+    display: block;
+    animation: para 1s;
+}
+.hide_para2{
+    display: none;
+    animation: para 1s;
+}
+.show_para2{
+    display: block;
+    animation: para 1s;
+}
+.hide_para3{
+    display: none;
+    animation: para 1s;
+}
+.show_para3{
+    display: block;
+    animation: para 1s;
+}
+.hide_para4{
+    display: none;
+    animation: para 1s;
+}
+.show_para4{
+    display: block;
+    animation: para 1s;
+}
+.hide_para5{
+    display: none;
+    animation: para 1s;
+}
+.show_para5{
+    display: block;
+    animation: para 1s;
+}
+.hide_para6{
+    display: none;
+    animation: para 1s;
+}
+.show_para6{
+    display: block;
+    animation: para 1s;
+}
+.hide_para7{
+    display: none;
+    animation: para 1s;
+}
+.show_para7{
+    display: block;
+    animation: para 1s;
+}
+@keyframes para {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}

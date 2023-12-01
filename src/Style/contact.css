@@ -1,0 +1,73 @@
+.box_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6rem;
+}
+.box_contact h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #243443;
+}
+@media (max-width: 1000px) {
+    .box_contact h2{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 585px) {
+    .box_contact h2{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 485px) {
+    .box_contact h2{
+        font-size: 2.5rem;
+    }
+}
+.box_contact p{
+    color: #243443;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 1rem 0;
+}
+.inner_box{
+    display: flex;
+    margin: 5rem 0;
+    gap: 7rem;
+}
+@media (max-width: 1000px) {
+    .inner_box{
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+.inner .address h5{
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: justify;
+    color: #243443;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+}
+.address span{
+    color: #243443;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.address span .dir{
+    color: #243443;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.contact_img img{
+    width: 90%;
+}

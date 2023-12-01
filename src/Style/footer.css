@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+footer{
+    background-color: #243443;
+    padding: 3rem 6rem;
+}
+.foot_content{
+    display: flex;
+    gap: 15rem;
+    margin: 5rem 0;
+}
+@media (max-width: 900px) {
+    .foot_content{
+        flex-wrap: wrap;
+        gap: 10rem;
+    }
+}
+.under_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.under_footer .logo{
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.under_footer .add_con h6{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.under_footer .add_con p{
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: #fff;
+}
+.contact p{
+    width: 44%;
+    border-bottom: 0.01rem solid #fff;
+}
+.social{
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+}
+.social .media{
+    font-size: 1.5rem;
+}
+
+.under_footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.under_footer ul .foot_link{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+}

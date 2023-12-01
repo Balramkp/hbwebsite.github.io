@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+.room_suite{
+    display: flex;
+    background-color: #243443;
+    margin-bottom: 2rem;
+    padding: 4rem 6rem;
+    gap: 16rem;
+}
+@media (max-width: 1000px){
+    .room_suite{
+        gap: 2rem;
+    }
+}
+@media (max-width: 765px) {
+    .room_suite{
+        flex-wrap: wrap;
+    }
+}
+.room_suite h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    color: #fff;
+}
+@media (max-width: 1000px) {
+    .room_suite h2{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 585px) {
+    .room_suite h2{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 485px) {
+    .room_suite h2{
+        font-size: 2.5rem;
+    }
+}
+.room_suite p{
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 40%;
+}
+@media (max-width: 1000px) {
+    .room_suite p{
+        width: 70%;
+    }
+}
+@media (max-width: 835px) {
+    .room_suite p{
+        width: 90%;
+    }
+}
+@media (max-width: 700px){
+    .room_suite p{
+        width: 100%;
+    }
+}
+@media (max-width: 485px){
+    .room_suite p{
+        font-size: 1.2rem;
+    }
+}
+
+
+.all_rooms{
+    margin: 10rem 0;
+}

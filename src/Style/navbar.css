@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+nav .logo{
+    color: #333333;
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul li .nav_link{
+    color: #333333;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.btn{
+    border: .05rem solid black;
+    display: inline-block;
+    width: 6rem;
+    text-align: center;
+    margin-top: -0.6rem;
+    padding: 0.4rem 0;
+}
+.btn_book{
+    background-color: #243443;
+    color: #f7f7f7;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.btn_book:hover, .btn_book:active{
+    background-color: #f7f7f7;
+    color: #243443;
+}
+.menu{
+    display: none;
+}
+
+@media (max-width: 831px) {
+    nav .logo{
+        margin-left: 2rem;
+        z-index: 10;
+    }
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        background-color: #fff;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.6s;
+        animation: headerslider 0.5s;
+    }
+    @keyframes headerslider {
+        0%{
+            height: 0vw;
+        }
+        100%{
+            height: 100vw;
+        }
+    }
+    nav ul li{
+        margin-bottom: 3rem;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        left: 90%;
+    }
+    .menu_icon{
+        font-size: 1.5rem;
+        
+    }
+
+    .mobile_navbar{
+        display: flex;
+    }
+    .changemobile_navbar{
+        display: none;
+    }
+}
